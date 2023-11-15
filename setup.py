@@ -10,10 +10,10 @@ setup(
     url="http://singer.io",
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     install_requires=[
-        "singer-python==5.10.0",
+        "singer-python @ git+https://github.com/peliqan-io/singer-python@master",
         "pendulum",
         "ratelimit",
-        "backoff",
+        "backoff==1.8.0",
         "requests",
         "parameterized",
     ],
